@@ -1,0 +1,143 @@
+Branding Routes
+---------------------
+@post -> /api/branding/create
+@put -> /api/branding/update
+@get -> /api/branding/get
+
+
+Suppliers Routes
+---------------------
+@post -> /api/supplier/create
+@put -> /api/supplier/update/:id
+@put -> /api/supplier/status/:id
+@get -> /api/supplier/all
+@get -> /api/supplier/pagination
+@delete -> /api/supplier/delete/:id
+
+Employee Routes
+---------------------
+@post -> /api/employee/create
+@put -> /api/employee/update/:id
+@put -> /api/employee/status/:id
+@get -> /api/employee/all
+@get -> /api/employee/pagination
+@delete -> /api/employee/delete/:id
+
+Category Routes
+---------------------
+@post -> /api/category/create
+@put -> /api/category/update/:id
+@get -> /api/category/all
+@get -> /api/category/pagination
+@delete -> /api/category/delete/:id
+
+Brand Routes
+---------------------
+@post -> /api/brand/create
+@put -> /api/brand/update/:id
+@get -> /api/brand/all
+@get -> /api/brand/pagination
+@delete -> /api/brand/delete/:id
+
+Currency Routes
+---------------------
+@post -> /api/currency/create
+@put -> /api/currency/update/:id
+@get -> /api/currency/all
+@get -> /api/currency/pagination
+@delete -> /api/currency/delete/:id
+
+Product Routes
+---------------------
+@post -> /api/product/create
+@put -> /api/product/update/:id
+@get -> /api/product/all
+@get -> /api/product/pagination
+@delete -> /api/product/delete/:id
+
+Showcase Routes
+---------------------
+@post -> /api/showcase/create
+@put -> /api/showcase/update/:id
+@get -> /api/showcase/all
+@get -> /api/showcase/pagination
+@delete -> /api/showcase/delete/:id
+
+DlvDuration Routes
+---------------------
+@post -> /api/dlv-duration/create
+@put -> /api/dlv-duration/update/:id
+@get -> /api/dlv-duration/all
+@get -> /api/dlv-duration/pagination
+@delete -> /api/dlv-duration/delete/:id
+
+User Routes
+---------------------
+@post -> /api/user/create
+@put -> /api/user/status/:id
+@get -> /api/user/pagination
+
+Auth Routes
+---------------------
+@post -> /api/auth/login
+@post -> /api/auth/verify-token
+
+Cart Routes
+---------------------
+@post -> /api/cart/create
+@put -> /api/cart/update/:id
+@get -> /api/cart/delete/:id
+@get -> /api/cart/delete/many/:userId
+@get -> /api/cart/all
+@get -> /api/cart/user?userId=userId
+
+Address Routes
+---------------------
+@post -> /api/address/create
+@put -> /api/address/update/:id
+@get -> /api/address/delete/:id
+@get -> /api/address/all
+@get -> /api/address/user?userId=userId
+
+MenSize Routes
+---------------------
+@post -> /api/men-size/create
+@put -> /api/men-size/update/:id
+@get -> /api/men-size/delete/:id
+@get -> /api/men-size/all
+@get -> /api/men-size/user?userId=userId
+
+WomenSize Routes
+---------------------
+@post -> /api/women-size/create
+@put -> /api/women-size/update/:id
+@get -> /api/women-size/delete/:id
+@get -> /api/women-size/all
+@get -> /api/women-size/user?userId=userId
+
+CoatSize Routes
+---------------------
+@post -> /api/coat-size/create
+@put -> /api/coat-size/update/:id
+@get -> /api/coat-size/delete/:id
+@get -> /api/coat-size/all
+@get -> /api/coat-size/user?userId=userId
+
+Dealer Routes
+---------------------
+@post -> /api/dealer/create
+@put -> /api/dealer/update/:id
+@put -> /api/dealer/status/:id
+@get -> /api/dealer/all
+@get -> /api/dealer/pagination
+@delete -> /api/dealer/delete/:id
+
+Order Routes
+---------------------
+@post -> /api/order/create
+@post -> /api/order/many
+@put -> /api/order/status/:id
+@get -> /api/order/all
+@get -> /api/order/user/:userId
+@get -> /api/order/status?userId=userId Or status=delivered
+@get -> /api/order/pagination?page=1&limit=2&status=delivered

@@ -1,0 +1,18 @@
+Model Name
+---------------
+Branding,
+Supplier,
+Category,
+Brand,
+Currency,
+Product,
+Showcase,
+DlvDuration,
+User,
+Cart,
+Address,
+Mensize,
+Womensize,
+Coatsize,
+Dealer,
+Order
